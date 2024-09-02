@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Logo = ({ src, alt, ...attributes }) => (
-  <img src={src} alt={alt} {...attributes} />
+  <img src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/demo/logo.png" alt={alt} {...attributes} />
 );
 
 Logo.propTypes = {
