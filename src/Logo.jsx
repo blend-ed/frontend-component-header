@@ -17,7 +17,7 @@ const LinkedLogo = ({
   ...attributes
 }) => (
   <a href={href} {...attributes}>
-    <img className="d-block" src={src} alt={alt} />
+    <img className="d-block" src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/demo/logo.png" alt={alt} />
   </a>
 );
 
