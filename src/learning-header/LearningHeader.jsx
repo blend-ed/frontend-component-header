@@ -34,7 +34,7 @@ const LearningHeader = ({
     <LinkedLogo
       className="logo"
       href={`${getConfig().LMS_BASE_URL}/dashboard`}
-      src={getConfig().LOGO_URL}
+      src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/demo/logo.png"
       alt={getConfig().SITE_NAME}
     />
   );
