@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Logo = ({ src, alt, ...attributes }) => (
-  <img src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/demo/logo.png" alt={alt} {...attributes} />
+  <img src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/brand/yourorg/logo.png" alt={alt} {...attributes} />
 );
 
 Logo.propTypes = {
@@ -17,7 +17,7 @@ const LinkedLogo = ({
   ...attributes
 }) => (
   <a href={href} {...attributes}>
-    <img className="d-block" src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/demo/logo.png" alt={alt} />
+    <img className="d-block" src="https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/brand/yourorg/logo.png" alt={alt} />
   </a>
 );
 
