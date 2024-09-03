@@ -10,7 +10,7 @@ var Logo = function Logo(_ref) {
     alt = _ref.alt,
     attributes = _objectWithoutProperties(_ref, _excluded);
   return /*#__PURE__*/React.createElement("img", _extends({
-    src: src,
+    src: "https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/brand/yourorg/logo.png",
     alt: alt
   }, attributes));
 };
@@ -27,7 +27,7 @@ var LinkedLogo = function LinkedLogo(_ref2) {
     href: href
   }, attributes), /*#__PURE__*/React.createElement("img", {
     className: "d-block",
-    src: src,
+    src: "https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/brand/yourorg/logo.png",
     alt: alt
   }));
 };

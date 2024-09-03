@@ -39,7 +39,7 @@ var LearningHeader = function LearningHeader(_ref2) {
   var headerLogo = /*#__PURE__*/React.createElement(LinkedLogo, {
     className: "logo",
     href: "".concat(getConfig().LMS_BASE_URL, "/dashboard"),
-    src: getConfig().LOGO_URL,
+    src: "https://blend-ed-public-asset-bak.s3.ap-south-1.amazonaws.com/brand/yourorg/logo.png",
     alt: getConfig().SITE_NAME
   });
   return /*#__PURE__*/React.createElement("header", {
